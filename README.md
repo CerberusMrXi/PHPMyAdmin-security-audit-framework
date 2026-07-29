@@ -136,8 +136,8 @@ scan_profiles:
 ## Installation
 
 ```bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/CerberusMrXi/PHPMyAdmin-security-audit-framework
+cd PHPMyAdmin-security-audit-framework
 python3 -m venv venv
 source venv/bin/activate          # Windows: .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
