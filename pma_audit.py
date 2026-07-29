@@ -845,9 +845,9 @@ def main():
     
     print(f"""
 {Fore.CYAN}╔══════════════════════════════════════════════════════════════╗
-║  PHPMyAdmin Advanced Security Assessment Framework v1.0     ║
-║  Author | Sudeepa Wanigarathna                              ║
-║  For Authorized Testing Only                                ║
+║  PHPMyAdmin Advanced Security Assessment Framework v1.0      ║
+║  Author | Sudeepa Wanigarathna                               ║
+║  For Authorized Testing Only                                 ║
 ╚══════════════════════════════════════════════════════════════╝{Style.RESET_ALL}
     """)
     
