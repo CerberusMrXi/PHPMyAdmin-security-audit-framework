@@ -1,0 +1,42 @@
+# PHPMyAdmin Security Audit Configuration
+enabled_plugins:
+  - version_detection
+  - security_headers
+  - exposed_interfaces
+  - cookie_security
+  - tls_configuration
+  - directory_listing
+  - weak_http_methods
+  - backup_exposure
+  - server_banner
+
+scan_profiles:
+  quick:
+    timeout: 10
+    max_connections: 5
+    enabled_plugins:
+      - version_detection
+      - security_headers
+      - exposed_interfaces
+  
+  full:
+    timeout: 30
+    max_connections: 20
+    retries: 3
+    enabled_plugins: all
+
+reporting:
+  formats:
+    - html
+    - json
+    - csv
+    - markdown
+  
+  cvss_version: "3.1"
+  include_mitre: true
+  include_remediation: true
+
+output:
+  directory: "reports"
+  log_level: "INFO"
+  html_template: "standard"
