@@ -44,6 +44,35 @@ Both tools require interactive confirmation of authorization before scanning beg
 | Primary use | Red team / blue team validation under contract |
 
 ---
+## 📸 Screenshots
+
+<table align="center">
+<tr>
+<td align="center">
+<b>Dashboard Overview</b><br><br>
+<img src="https://github.com/user-attachments/assets/cce8edb1-fb87-4653-b21b-5eb6c3d48947" width="450">
+</td>
+
+<td align="center">
+<b>Scan Progress</b><br><br>
+<img src="https://github.com/user-attachments/assets/c6e5e8b4-1215-443c-9358-4922b7114a36" width="450">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Generated Report</b><br><br>
+<img src="https://github.com/user-attachments/assets/d1b0c227-26b8-4c98-9a82-c4afb3ecc12d" width="450">
+</td>
+
+<td align="center">
+<b>Detailed Findings</b><br><br>
+<img src="https://github.com/user-attachments/assets/41efdadb-3d16-4d79-a363-a0b662941267" width="450">
+</td>
+</tr>
+</table>
+
+---
 
 ## Which tool should I use?
 
