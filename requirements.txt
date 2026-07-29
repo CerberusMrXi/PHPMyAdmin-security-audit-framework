@@ -1,0 +1,87 @@
+# PHPMyAdmin Advanced Security Assessment Framework v1.0
+# Requirements File
+
+# Core dependencies
+aiohttp>=3.8.0
+aiosignal>=1.2.0
+async-timeout>=4.0.0
+attrs>=21.4.0
+certifi>=2022.12.7
+charset-normalizer>=2.0.0
+frozenlist>=1.3.0
+idna>=3.3.0
+multidict>=6.0.0
+yarl>=1.8.0
+
+# HTTP and networking
+requests>=2.28.0
+urllib3>=1.26.0
+httpx>=0.23.0
+
+# Data processing
+pyyaml>=6.0
+json5>=0.9.0
+python-dateutil>=2.8.0
+
+# Reporting and output
+colorama>=0.4.0
+tqdm>=4.64.0
+markdown>=3.4.0
+jinja2>=3.1.0
+tabulate>=0.9.0
+
+# Security and crypto
+cryptography>=38.0.0
+pyOpenSSL>=22.0.0
+
+# XML and parsing
+defusedxml>=0.7.0
+lxml>=4.9.0
+
+# Utilities
+python-dotenv>=0.20.0
+click>=8.1.0
+rich>=12.0.0
+prettytable>=3.4.0
+
+# Testing and development (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.18.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.980
+
+# Database and integration
+aiomysql>=0.1.0
+aiopg>=1.4.0
+redis>=4.0.0
+
+# Monitoring and logging
+prometheus-client>=0.14.0
+structlog>=22.0.0
+python-json-logger>=2.0.0
+
+# Visualization (optional)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Additional security checks
+nmap-python>=0.1.0
+python-nmap>=0.7.0
+sqlmap>=1.6.0
+
+# Web scraping and analysis
+beautifulsoup4>=4.11.0
+html5lib>=1.1.0
+cssutils>=2.5.0
+
+# API and web services
+flask>=2.2.0
+fastapi>=0.85.0
+uvicorn>=0.18.0
+
+# SSL/TLS checks
+sslyze>=5.0.0
+tls-parser>=1.3.0
